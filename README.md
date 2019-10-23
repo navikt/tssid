@@ -12,8 +12,7 @@ TSS har ikke et eget brukergrensesnitt, men er et grunndataregister for andre fa
 
 ## Hvem oppretter tssid
 TSS id består av opplysninger fra Helsepersonellregisteret, Enhetsregisteret, TPS, HELFO og opplysninger som NAV har registrert.
-Nye tssid'r blir laget for hver ny praksis som lages
-tssId vil ikke bli oppdatert. 
+Nye tssid'r blir laget for hver ny praksis som lages, tssId vil ikke bli oppdatert. 
 Så det er en "evig" unik id for hver samhandlerprakis.
 
 ## Hvordan benyttes ein tssid?
@@ -27,14 +26,13 @@ og velger da den tssid, basert på den som gir best treff.
 
 Syfosmmottak oppretter ikkje elektronisk elektronisk abomment for samhandlerprakiser som er av typen Legevakt(LEVA, LEKO)
 
-
 ## Hvilken systemer bruker tssid
-Arena
-Infotrygd
-Emottak
-SyfosmInfotrygd
-SyfosmArena
-SyfosmMottak
+* Arena
+* Infotrygd
+* Emottak
+* SyfosmInfotrygd
+* SyfosmArena
+* SyfosmMottak
 
 ## Flyt for tss oppdatering
 <img src="flyt-tss.jpg" alt="Tss Flyt">
