@@ -12,6 +12,21 @@ TSS har ikke et eget brukergrensesnitt, men er et grunndataregister for andre fa
 
 ## Hvem oppretter tssid
 TSS id består av opplysninger fra Helsepersonellregisteret, Enhetsregisteret, TPS, HELFO og opplysninger som NAV har registrert.
+Nye tssid'r blir laget for hver ny praksis som lages
+tssId vil ikke bli oppdatert. 
+Så det er en "evig" unik id for hver samhandlerprakis.
+
+## Hvordan benyttes ein tssid?
+Ein tssid benyttes eks i syfosmmottak får å opprette ein elektronisk abomment, for den akutelle tssid.
+Dette skjer ved at ein lege sender inn ein sykmelding, syfosmmottak, gjør så eit oppslat i kuhr sar api.
+og får tilbake eit utrekk av samhandlerprakiser.
+Syfosmmottak, tar så og filterer vekk dei samhandlerprakiser som ikkje er aktive(Har ikkje fått refusjonskrav på 12 måneder)
+og dei samhandlerprakisene som mangler navn.
+Den tar så organisasjosn navnet i sykmelding og prøver å matche det med navnet som ligger samhandlerprakiser som vi fikk fra kuhr sar api.
+og velger da den tssid, basert på den som gir best treff.
+
+Syfosmmottak oppretter ikkje elektronisk elektronisk abomment for samhandlerprakiser som er av typen Legevakt(LEVA, LEKO)
+
 
 ## Hvilken systemer bruker tssid
 Arena
@@ -20,3 +35,5 @@ Emottak
 SyfosmInfotrygd
 SyfosmArena
 SyfosmMottak
+
+## Flyt for tss oppdatering
