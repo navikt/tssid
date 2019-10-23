@@ -37,3 +37,4 @@ SyfosmArena
 SyfosmMottak
 
 ## Flyt for tss oppdatering
+<img src="flyt-tss.jpg" alt="Tss Flyt">
