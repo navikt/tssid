@@ -16,15 +16,11 @@ Nye tssid'r blir laget for hver ny praksis som lages, tssId vil ikke bli oppdate
 Så det er en "evig" unik id for hver samhandlerprakis.
 
 ## Hvordan benyttes ein tssid?
-Ein tssid benyttes eks i syfosmmottak får å opprette ein elektronisk abomment, for den akutelle tssid.
-Dette skjer ved at ein lege sender inn ein sykmelding, syfosmmottak, gjør så eit oppslat i kuhr sar api.
-og får tilbake eit utrekk av samhandlerprakiser.
-Syfosmmottak, tar så og filterer vekk dei samhandlerprakiser som ikkje er aktive(Har ikkje fått refusjonskrav på 12 måneder)
-og dei samhandlerprakisene som mangler navn.
-Den tar så organisasjosn navnet i sykmelding og prøver å matche det med navnet som ligger samhandlerprakiser som vi fikk fra kuhr sar api.
-og velger da den tssid, basert på den som gir best treff.
+Ein tssid benyttes eks i [syfosmmottak](https://github.com/navikt/syfosmmottak) får å opprette ein elektronisk abomment, for den akutelle tssid.
+Dette skjer ved at ein lege sender inn ein sykmelding, [syfosmmottak](https://github.com/navikt/syfosmmottak), gjør så eit oppslat i [smtss](https://github.com/navikt/smtss).
+og får tilbake ein tssid.
 
-Syfosmmottak oppretter ikkje elektronisk elektronisk abomment for samhandlerprakiser som er av typen Legevakt(LEVA, LEKO)
+[syfosmmottak](https://github.com/navikt/syfosmmottak)  oppretter ikkje elektronisk elektronisk abomment for samhandlerprakiser som er av typen Legevakt(LEVA, LEKO)
 
 ## Hvilken systemer bruker tssid
 * Arena
@@ -33,6 +29,7 @@ Syfosmmottak oppretter ikkje elektronisk elektronisk abomment for samhandlerprak
 * SyfosmInfotrygd
 * SyfosmArena
 * SyfosmMottak
+* Smtss
 
 ## Flyt for tss oppdatering
 <img src="flyt-tss.jpg" alt="Tss Flyt">
