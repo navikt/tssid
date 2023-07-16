@@ -17,10 +17,8 @@ Så det er en "evig" unik id for hver samhandlerprakis.
 
 ## Hvordan benyttes ein tssid?
 Ein tssid benyttes eks i [syfosmmottak](https://github.com/navikt/syfosmmottak) får å opprette ein elektronisk abomment, for den akutelle tssid.
-Dette skjer ved at ein lege sender inn ein sykmelding, [syfosmmottak](https://github.com/navikt/syfosmmottak), gjør så eit oppslat i [smtss](https://github.com/navikt/smtss).
-og får tilbake ein tssid.
-
-[syfosmmottak](https://github.com/navikt/syfosmmottak)  oppretter ikkje elektronisk elektronisk abomment for samhandlerprakiser som er av typen Legevakt(LEVA, LEKO)
+Dette skjer ved at ein lege sender inn ein sykmelding, legeerklæring, dialogmelding, der gjørers det eit oppslag i [smtss](https://github.com/navikt/smtss).
+og får da evt finne best  tssid som match.
 
 ## Hvilken systemer bruker tssid
 * Arena
