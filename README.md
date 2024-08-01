@@ -1,4 +1,8 @@
 # Tssid
+
+> [!WARNING]
+> Denne dokumentasjonen er flyttet inn i Microsoft Loop (TSM workspace)
+
 ## Hva er ein tssid?
 Tjenesteorientert Samhandler System (Inneholder adresser til alle samhandlere i NAV) ident
 TSS er et fellesregister som inneholder opplysninger om de eksterne samarbeidspartnere som NAV utveksler informasjon med. 
